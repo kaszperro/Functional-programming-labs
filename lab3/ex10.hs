@@ -1,0 +1,1 @@
+isSortedAsc :: Ord a => [a] -> Bool
