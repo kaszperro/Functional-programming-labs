@@ -72,3 +72,14 @@ data Tree a = EmptyT |
 rootValue :: Tree a -> a
 rootValue EmptyT = error "drzewo puste"
 rootValue (Node n lt rt) = n 
+
+
+data TrafficLights = GreenLight |
+                    YellowLight |
+                    RedLight
+
+
+actionFor :: TrafficLights -> String
+actionFor GreenLight = "Go"
+actionFor YellowLight = "Be ready"
+actionFor RedLight = "Stop"
