@@ -11,4 +11,3 @@ vec3DLen (x,y,z) = sqrt(x^2 + y^2 + z^2)
 swap :: (Int, Char) -> (Char, Int)
 swap (a,b) = (b,a)
 
-
